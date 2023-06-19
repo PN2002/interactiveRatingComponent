@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+}
+
+.content{
+    padding: 1.4rem 2rem;
+}
+
+
+#giveanote #star{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#giveanote #star img{
+    background-color: hsl(216, 12%, 54%, 0.205);
+    padding: 0.7rem 0.7rem;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+#giveanote .content .text{
+    margin-top: 1.3rem;
+    line-height: 1.7;
+}
+
+#giveanote .content .text h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+#giveanote .content .text p{
+    margin-top: 0.7rem;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+#giveanote .content .rating-numbers{
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+#giveanote .content .rating-numbers .circle button{
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%, 0.205);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.8em 1.2em;
+    border: none;
+    font-size: 15px;
+}
+
+#giveanote .content .rating-numbers .circle button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+#giveanote .content .rating-numbers .circle button:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-button{
+    margin-top: 3rem;
+}
+
+.submit-button button{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 1rem;
+    cursor: pointer;
+} 
+
+.submit-button button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#thankyou{
+    display: none;
+}
+
+#thankyou .content .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thankyou .content .rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#thankyou .content .rating p{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%, 0.205);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+
+#thankyou .content .text{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#thankyou .content .text h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+#thankyou .content .text p{
+    margin-top: 1rem;
+    line-height: 1.7;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    font-size: 15px;
+}
